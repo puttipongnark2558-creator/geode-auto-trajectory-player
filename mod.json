@@ -1,0 +1,27 @@
+{
+  "geode": "3.0.0",
+  "id": "puttipongnark.auto_trajectory_player",
+  "name": "Auto Trajectory Player",
+  "version": "v1.0.0",
+  "developer": "puttipongnark2558-creator",
+  "description": "Autoplays levels and automatically enforces Safe Mode to protect your stats.",
+  "dependencies": [],
+  "settings": {
+    "auto-play-enabled": {
+      "name": "Enable Autoplay",
+      "type": "bool",
+      "default": false
+    },
+    "auto-safe-mode": {
+      "name": "Force Safe Mode",
+      "type": "bool",
+      "default": true,
+      "description": "Prevents level completion and stat saving while autoplay is active."
+    },
+    "auto-retry": {
+      "name": "Auto-Retry on Death",
+      "type": "bool",
+      "default": true
+    }
+  }
+}
